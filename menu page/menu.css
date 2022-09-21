@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    background-color:ivory;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    width:100%;
+    height: 80px;
+    background-color: #006491;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    position: fixed;
+    box-shadow: 0px 0px 10px black;
+}
+
+.menu{
+    width:70%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* --------------pizza-logo--------------- */
+.div1{
+    width:430px;
+    height:100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.pizza-img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+form{
+    width: 400px;
+    display: flex;
+    color: white;
+    font-family: agency fb;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+form a{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+form a:nth-of-type(2){
+    color: white;
+    text-decoration: none;
+    background-color: #005177;
+}
+form a:nth-of-type(4){
+    color: white;
+    text-decoration: none;
+}
+form a:hover{
+    background-color: #005177;
+    transition: .4s;
+}
+
+/* ----------------sign-up box-------------- */
+.div2{
+    width:250px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up{
+    width:170px;
+    height: 100%;
+    background-color:#005177;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.not_me{
+    font-weight: normal;
+    font-size: 15px;
+}
+.contact{
+    width:40px;
+    height:60px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.sign-in{
+    font-family: agency fb;
+    font-size:20px;
+    font-weight: bolder;
+    cursor: pointer;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart{
+    width: 60px;
+    height:60px;
+    object-fit:contain;
+    cursor: pointer;
+}
+.cart_{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: agency fb;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/* second-header */
+.second-header{
+    width:100%;
+    height:40px;
+    display: flex;
+    margin-top: 90px;
+    padding-left: 250px;
+}
+
+.mini_nav{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.second-header .mini_nav item{
+    font-family: agency fb;
+    font-weight: bold;
+    font-size: 14px;
+    color: #006491;
+    cursor: pointer;
+}
+
+/* ------------Body-Content---------------- */
+.body{
+    width:100%;
+    height:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.ads{
+    height:90%;
+    width:70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.start{
+    height: 50px;
+    width: 100%;
+    background-color: #006491;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.body .ads .start p{
+    font-size: 35px;
+    color: white;
+    font-family: agency fb;
+    font-weight: bold;
+}
+.body .ads .start .del_btn p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    align-self: center;
+}
+.national{
+    height: 120px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.del_btn{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+.body .ads item{
+    height: 90px;
+    width: 100%;
+    border: 0.5px solid lightgray;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #006491;
+    font-size: 25px;
+    font-family: agency fb;
+    font-weight: bold;
+    cursor: pointer;
+}
+.body .ads item:hover{
+    background-color: #006491;
+    color: white;
+}
+button{
+    background-color: rgb(228, 5, 5);
+    width: 160px;
+    height: 100%;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    transition: .3s;
+    background-color: rgb(172, 4, 4);
+    cursor: pointer;
+}
+.body .ads .national h1{
+    font-family: agency fb;
+    font-weight: bold;
+    font-size: 41px;
+}
+.body .ads .national h5{
+    font-family: sans-serif;
+    color: #006491;
+}
+span:hover{
+    color: red;
+    cursor: pointer;
+}
+.plates{
+    width: 150px;
+    height: 100%;
+}
+.txts{
+    margin-left: 70px;
+    cursor: pointer;
+}
+/* ---------------footer-body------------- */
+.footer{
+    background-color:lightgray;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first{
+    width:70%;
+    height: 50px;
+    display: flex;
+}
+
+.big-box{
+    width:40%;
+    display: flex;
+    font-family: agency fb;
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.int{
+    cursor: pointer;
+}
+.piz{
+    cursor: pointer;
+}
+.faq{
+    cursor: pointer;
+}
+.con{
+    cursor: pointer;
+}
+
+
+
+.second{
+    width:70%;
+    height:70px;
+    display: flex;
+    align-items: center;
+}
+
+.fb{
+    height:70%;
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.face-book{
+    height:25px;
+    width:25px;
+    background-image: url("../icons/facebook-blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.face-book:hover{
+    cursor: pointer;
+    background-image: url("../icons/facebook-red.png");
+}
+
+
+
+.twitter{
+    height:25px;
+    width:25px;
+    margin-top: 5px;
+    background-image: url("../icons/twitter-blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.twitter:hover{
+    cursor: pointer;
+    background-image: url("../icons/twitter-red.png");
+}
+
+.verve{
+    height:90%;
+    width:60%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mastercard{
+    height: 50px;
+    width:80px;
+}
+.visa{
+    height:60px;
+    width:120px;
+}
+.verve1{
+    height: 50px;
+    width:100px;
+}
+.interswitch{
+    height:70px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.third{
+    width:70%;
+    height:170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt1{
+    width:100%;
+    height:65px;
+    font-family:agency fb;
+    color:gray;
+    font-weight: bolder;
+}
+
+.txt2{
+    width:100%;
+    height:80px;
+    font-family: agency fb;
+    color:gray;
+    font-weight: bolder;
+}

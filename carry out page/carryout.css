@@ -1,0 +1,539 @@
+*{
+    margin:0px;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    background-color:rgb(243, 244, 244);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    width:100%;
+    height: 80px;
+    background-color: #006491;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    position: fixed;
+    box-shadow: 0px 0px 10px black;
+}
+
+.menu{
+    width:70%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* --------------pizza-logo--------------- */
+.div1{
+    width:430px;
+    height:100%;
+    display: flex;
+    font-family: agency fb;
+    /* justify-content: space-between; */
+}
+
+.item:nth-of-type(1){
+    width:70px;
+    cursor: pointer;
+}
+
+.pizza-img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+
+.the-home{
+    height:100%;
+    width:60px;
+    display: flex;
+}
+.the-home:hover{
+    background-color:#005177;
+}
+
+.item:nth-of-type(2){
+    width:100px;
+    height: 100%;
+    font-family: agency fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.item:nth-of-type(2):hover{
+    background-color: #005177;
+}
+
+.anchor{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    font-family: impact;
+    color:white;
+}
+
+
+
+/* ----------------sign-up box-------------- */
+.div2{
+    width:250px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up{
+    width:170px;
+    height: 100%;
+    background-color:#005177;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact{
+    width:40px;
+    height:60px;
+    object-fit: contain;
+    cursor: pointer;
+    /* background-color: aquamarine; */
+}
+
+.sign-in{
+    width:100px;
+    height:45px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: agency fb;
+    font-size:18px;
+    font-weight: bolder;
+    cursor: pointer;
+    color:white;
+}
+
+
+.not{
+    width:100%;
+    height: 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color:lightgray;
+}
+.not:hover{
+    background-color: rgb(115, 114, 114);
+}
+
+.cart{
+    width: 60px;
+    height:60px;
+    object-fit:contain;
+    cursor: pointer;
+}
+
+/* second-header */
+.second-header{
+    width:100%;
+    height:90px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: agency fb;
+}
+
+.delivery{
+    width:70%;
+    height:100%;
+    /* background-color: blue; */
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 0.5fr 2fr 1fr;
+}
+
+.big-txt{
+    height:70px;
+    width:450px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Geometr706 BlkCn BT;
+    font-weight: bolder;
+    font-size: 20px;
+    color:black;
+    font-family: agency fb;
+}
+
+
+.items:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.line{
+    width:100%;
+    object-fit: contain;
+}
+
+
+.items:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: agency fb;
+    font-weight:bolder;
+    font-size: 30px;
+    color:rgb(36, 91, 163);
+    text-decoration: none;
+}
+
+.items:nth-of-type(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.delivery2{
+    height:40px;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color:crimson;
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 20px;
+    color:white;
+}
+.delivery2:hover{
+    background-color: rgb(189, 0, 38);
+    cursor: pointer;
+}
+
+.items:nth-of-type(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: forte;
+    font-size: 30px;
+    color:gray;
+    text-decoration: none;
+}
+
+.items:nth-of-type(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.carryout{
+    height:40px;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color:crimson;
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 20px;
+    color:white;
+}
+.carryout:hover{
+    background-color: rgb(189, 0, 38);
+    cursor: pointer;
+}
+
+
+
+.items:nth-of-type(6){
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.line1{
+    width:100%;
+    object-fit: contain;
+}
+
+
+
+
+
+/* ------------Body-Content---------------- */
+.body{
+    width:100%;
+    height: 850px;
+    display: flex;
+    /* background-color: brown; */
+    justify-content: center;
+    /* align-items: center; */
+    font-family: agency fb;
+}
+
+.g33{
+    height:800px;
+    width:950px;
+    display: flex;
+    margin-top: 5px;
+    background-color:white;
+    flex-direction: column;
+}
+
+.this-order{
+    width:100%;
+    height:40px;
+    background-color:#006491;
+    display: flex;
+}
+
+.this-order2{
+    width:40%;
+    height:100%;
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    font-family: Circular Sp UI T;
+    font-weight:bolder;
+    font-size: 17px;
+    color:white;
+    font-family: agency fb;
+}
+
+
+.bicycle{
+    width:33%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap:10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.cycle{
+    background-color: black;
+    border-radius: 100%;
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.or{
+    font-family: Arial;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.cook{
+    background-color: black;
+    border-radius: 100%;
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.choose{
+    width:100%;
+    height:70px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.me1{
+    width:50%;
+    height:25px;
+    font-family: agency fb;
+    display: flex;
+    align-items: center;
+    color:gray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.me2{
+    width:50%;
+    height: 25px;
+    font-family: agency fb;
+    color:gray;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.map-tool{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+    cursor:grab;
+}
+
+
+/* ---------------footer-body------------- */
+.footer{
+    background-color:lightgray;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first{
+    width:70%;
+    height: 50px;
+    display: flex;
+}
+
+.big-box{
+    width:40%;
+    display: flex;
+    font-family: agency fb;
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.int{
+    cursor: pointer;
+}
+.piz{
+    cursor: pointer;
+}
+.faq{
+    cursor: pointer;
+}
+.con{
+    cursor: pointer;
+}
+
+
+
+.second{
+    width:70%;
+    height:70px;
+    display: flex;
+    align-items: center;
+}
+
+.fb{
+    height:70%;
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.face-book{
+    height:25px;
+    width:25px;
+    background-image: url("../icons/facebook-blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.face-book:hover{
+    cursor: pointer;
+    background-image: url("../icons/facebook-red.png");
+}
+
+
+
+.twitter{
+    height:25px;
+    width:25px;
+    margin-top: 5px;
+    background-image: url("../icons/twitter-blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.twitter:hover{
+    cursor: pointer;
+    background-image: url("../icons/twitter-red.png");
+}
+
+.verve{
+    height:90%;
+    width:60%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mastercard{
+    height: 50px;
+    width:80px;
+}
+.visa{
+    height:60px;
+    width:120px;
+}
+.verve1{
+    height: 50px;
+    width:100px;
+}
+.interswitch{
+    height:70px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.third{
+    width:70%;
+    height:170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt1{
+    width:100%;
+    height:65px;
+    font-family:agency fb;
+    color:gray;
+    font-weight: bolder;
+}
+
+.txt2{
+    width:100%;
+    height:80px;
+    font-family: agency fb;
+    color:gray;
+    font-weight: bolder;
+}
